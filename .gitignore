@@ -1,0 +1,8 @@
+YYYPageViewController.xcodeproj/xcuserdata/
+YYYPageViewController.xcworkspace/
+first_upload.sh
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+YYYPageViewController.xcodeproj/project.xcworkspace/xcuserdata/
