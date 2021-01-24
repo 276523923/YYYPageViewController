@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,7 +31,7 @@
 		A77C695620B6684200B37992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77C695820B6684200B37992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A77C695920B6684200B37992 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A77C696020B668CB00B37992 /* YYYPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = YYYPageViewController.podspec; path = ../YYYPageViewController.podspec; sourceTree = "<group>"; };
+		A77C696020B668CB00B37992 /* YYYPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = YYYPageViewController.podspec; path = ../YYYPageViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7F07F0D2134EE3B00B28F01 /* upload.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = upload.sh; path = ../upload.sh; sourceTree = "<group>"; };
 		C4DBDDCC3669FE0685E8A5EC /* Pods_YYYPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYYPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -62,7 +62,6 @@
 				89D39E8A9C851D2912805B5E /* Pods-YYYPageViewController.debug.xcconfig */,
 				9210770230A728DBB3A694AC /* Pods-YYYPageViewController.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

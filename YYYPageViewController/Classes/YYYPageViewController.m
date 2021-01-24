@@ -98,6 +98,8 @@
         _scrollView.contentSize = CGSizeMake(self.count * _scrollView.frame.size.width, _scrollView.frame.size.height);
     }
     
+    [_scrollView setContentOffset:CGPointMake(_scrollView.frame.size.width * self.currentIndex, self.scrollView.contentOffset.y)];
+
     if (!UIEdgeInsetsEqualToEdgeInsets(_scrollView.contentInset, UIEdgeInsetsZero)) {
         [_scrollView setContentInset:UIEdgeInsetsZero];
     }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'YYYPageViewController'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = 'YYYPageViewController'
 
   s.description  = 'YYYPageViewController 多个viewController 控制器'
